@@ -1,12 +1,30 @@
-# 忽略 Visual Studio 产生的临时文件
+# Visual Studio 临时/索引
 .vs/
-*.vsidx
+*.vcxproj.user
+*.suo
+*.tlog/
 
-# 忽略编译输出
+# 编译输出
 bin/
 obj/
-build/
+x64/
+*.exe
+*.obj
+*.ilk
+*.pdb
 
-# 忽略系统文件
+# CMake 中间文件
+CMakeFiles/
+CMakeCache.txt
+install_manifest.txt
+Makefile
+cmake_install.cmake
+
+# 发布包、备份
+*.zip
+backup/
+
+# 其他
 *.log
 *.tmp
+*.user
