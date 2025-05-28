@@ -1,0 +1,12 @@
+# 忽略 Visual Studio 产生的临时文件
+.vs/
+*.vsidx
+
+# 忽略编译输出
+bin/
+obj/
+build/
+
+# 忽略系统文件
+*.log
+*.tmp
